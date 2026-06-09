@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Vocal Compass | 보컬로이드 탐험대</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>VOCAL COMPASS</h1>
+        <nav>
+            <input type="text" id="searchInput" placeholder="곡, 프로듀서, 태그 검색..." oninput="filterSongs()">
+            <button onclick="showRandom()">오늘의 추천곡</button>
+        </nav>
+    </header>
+    <main id="songGrid" class="grid"></main>
+    <script src="script.js"></script>
+</body>
+</html>
